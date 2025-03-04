@@ -1,0 +1,19 @@
+{
+  "name": "bookhive",
+  "version": "1.0.0",
+  "description": "BookHive is a modern book management and reading app that helps users organize their personal library, track reading progress, and discover new books. Whether you're a casual reader or an avid book collector, BookHive simplifies book management with an intuitive interface and powerful features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.0"
+  }
+}
