@@ -56,10 +56,10 @@ app.delete("/books/:id", async (req, res) => {
 });
 
 app.put('/books/:bookId', async (req, res) => {
-  const bookId = req.params.id
+  const bookId = req.params.bookId
   try{
     const updatedBook = await Books.findByIdAndUpdate(bookId, req.body, {new: true})
-
+    console.log(updatedBook)
     if(!updatedBook){
       return res.status(404).json({message: 'Book not found'})
     }
